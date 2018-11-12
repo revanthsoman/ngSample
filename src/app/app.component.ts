@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sample';
+  wishMsg;
+  phoneNum=1234;
+  email;
+
+  handleClick() {
+    this.wishMsg = 'Hi'
+  }
+  handleClick1()
+  {
+    this.wishMsg = 'Hi Revanth'
+  }
 }
